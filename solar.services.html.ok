@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serviços de Energia Solar e Tipos de Carregadores</title>
+  <style>
+    /* Clean modern style inspired by Apple */
+    @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:ital,wght@0,400;0,600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 24px;
+      padding: 3rem 4rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.75rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+      text-align: center;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.75rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0071e3;
+      padding-bottom: 0.3rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+
+    .card {
+      background: #f0f4ff;
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0, 113, 227, 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 12px 30px rgba(0, 113, 227, 0.2);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-label="Serviços de Energia Solar e Tipos de Carregadores">
+    <button class="login-button" type="button" aria-label="Fazer login" onclick="window.location.href='http://127.0.0.1:5500/login_register_corrected.html'">Login</button>
+    <h1>Serviços de Energia Solar e Tipos de Carregadores</h1>
+
+    <section aria-labelledby="solar-services">
+      <h2 id="solar-services">Serviços de Energia Solar</h2>
+      <p>Oferecemos soluções completas em energia solar para residências, empresas e indústrias, garantindo economia, sustentabilidade e eficiência energética.</p>
+      <div class="card">
+        <h3>Projeto e Instalação</h3>
+        <p>Desenvolvemos projetos personalizados de sistemas fotovoltaicos, considerando o perfil de consumo e as características do local, com instalação profissional e certificada.</p>
+      </div>
+      <div class="card">
+        <h3>Manutenção e Monitoramento</h3>
+        <p>Realizamos manutenção preventiva e corretiva, além de monitoramento remoto para garantir o desempenho ideal do sistema solar.</p>
+      </div>
+      <div class="card">
+        <h3>Consultoria e Análise de Viabilidade</h3>
+        <p>Oferecemos consultoria especializada para análise de viabilidade técnica e financeira, auxiliando na melhor decisão para o investimento em energia solar.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="charger-types">
+      <h2 id="charger-types">Tipos de Carregadores de Energia Solar</h2>
+      <p>Conheça os principais tipos de carregadores solares disponíveis no mercado, ideais para diferentes necessidades e dispositivos.</p>
+      <ul>
+        <li><strong>Carregadores Portáteis:</strong> Pequenos e leves, ideais para carregar dispositivos móveis como smartphones e tablets em qualquer lugar.</li>
+        <li><strong>Carregadores para Veículos Elétricos (EV):</strong> Estações de carregamento para carros elétricos, com diferentes potências e funcionalidades.</li>
+        <li><strong>Carregadores Solares para Baterias:</strong> Utilizados para recarregar baterias de sistemas isolados, como em áreas rurais ou sistemas off-grid.</li>
+        <li><strong>Carregadores Solares Integrados:</strong> Equipamentos que combinam painéis solares e carregadores em um único dispositivo, como mochilas solares.</li>
+        <li><strong>Carregadores Solares para Equipamentos Industriais:</strong> Soluções robustas para alimentar equipamentos industriais em locais remotos.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serviços de Construção</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background-color: #f5f5f7;
+      color: #1d1d1f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .container {
+      background: white;
+      padding: 3rem 4rem;
+      border-radius: 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+    }
+
+    button {
+      background-color: #0071e3;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-weight: 600;
+      font-size: 1.25rem;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      box-shadow: 0 8px 15px rgba(0, 113, 227, 0.3);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+      user-select: none;
+    }
+
+    button:hover,
+    button:focus {
+      background-color: #005bb5;
+      box-shadow: 0 12px 20px rgba(0, 91, 181, 0.5);
+      outline: none;
+      transform: translateY(-2px);
+    }
+
+    button:active {
+      transform: translateY(0);
+      box-shadow: 0 6px 10px rgba(0, 91, 181, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Serviços de Construção">
+    <h1>Serviços de Construção</h1>
+    <button type="button" aria-label="Fazer login">Fazer Login</button>
+  </div>
+</body>
+</html>
